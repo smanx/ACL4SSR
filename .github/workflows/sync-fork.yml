@@ -28,9 +28,7 @@ jobs:
 
       - name: Sync all branches
         run: |
-          for branch in $(git branch -r | grep 'upstream/' | sed 's/upstream\///'); do
-            if [ "$branch" != "HEAD" ]; then
-              git checkout -B $branch upstream/$branch
-              git push -f origin $branch
-            fi
+          git branch -r | grep 'upstream/' | grep -v 'HEAD' | grep -v '->' | sed 's/^[[:space:]]*upstream\///' | while read branch; do
+            git checkout -B $branch upstream/$branch
+            git push -f origin $branch
           done    
