@@ -1,0 +1,10 @@
+# 自定义不走代理
+DOMAIN-SUFFIX,docker.1panel.live
+DOMAIN-SUFFIX,domain.digitalplat.org
+DOMAIN-REGEX,.*tailscale.*
+DOMAIN-REGEX,.*netlify.*
+DOMAIN-SUFFIX,cloudns.net
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,gitpod.io
+DOMAIN-SUFFIX,mpanso.com
+DOMAIN-SUFFIX,肥猫.com
