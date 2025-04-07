@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,docker.1panel.live
 DOMAIN-SUFFIX,domain.digitalplat.org
 DOMAIN-REGEX,.*tailscale.*
-DOMAIN-REGEX,.*netlify.*
+# DOMAIN-REGEX,.*netlify.app*
 DOMAIN-SUFFIX,cloudns.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,gitpod.io
