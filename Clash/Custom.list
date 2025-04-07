@@ -1,3 +1,5 @@
 # 自定义走代理
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,netlify.com
