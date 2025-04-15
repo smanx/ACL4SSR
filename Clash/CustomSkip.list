@@ -5,6 +5,6 @@ DOMAIN-SUFFIX,domain.digitalplat.org
 # DOMAIN-REGEX,.*netlify.app*
 DOMAIN-SUFFIX,cloudns.net
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,gitpod.io
+# DOMAIN-SUFFIX,gitpod.io
 DOMAIN-SUFFIX,mpanso.com
 DOMAIN-SUFFIX,肥猫.com
